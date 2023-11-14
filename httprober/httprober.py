@@ -66,7 +66,7 @@ parser.add_argument("-c", "--concurrency", help=f"[{bold}{blue}INFO{reset}]: {bo
 
 parser.add_argument("-t", "--threads", help=f"[{blue}INFO{reset}]: {bold}{white}Threading level to make fast process", type=int, default=3)
 
-parser.add_argument("-up", "--update", help=f"[{bold}{blue}INFO{reset}]: {bold}{white}Updated the Subprober to later version", action="store_true")
+parser.add_argument("-up", "--update", help=f"[{bold}{blue}INFO{reset}]: {bold}{white}Updated the Httprober to later version", action="store_true")
 
 args = parser.parse_args()
 
